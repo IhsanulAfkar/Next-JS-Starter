@@ -47,7 +47,7 @@ export type ArticleImage = {
     url: string
 }
 
-export type FetchResponse<T> = {
+export type FetchResponse<T = undefined> = {
     data: T,
     message: string,
     status: number

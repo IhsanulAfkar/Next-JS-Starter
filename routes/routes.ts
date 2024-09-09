@@ -16,7 +16,10 @@ const routes: Routes = {
         path: '/dashboard/create'
     },
     'article.show': {
-        path: '/dashboard/article/{articleId}'
+        path: '/dashboard/article/{slug}'
+    },
+    'article.edit': {
+        path: '/dashboard/article/{slug}/edit'
     },
     // backend routes
     'backend.register': {
@@ -30,6 +33,9 @@ const routes: Routes = {
     },
     'backend.getarticle': {
         path: '/articles/{slug}'
-    }
+    },
+    'backend.article': {
+        path: '/articles/{articleId}'
+    },
 }
 export default routes
