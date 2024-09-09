@@ -27,6 +27,9 @@ const routes: Routes = {
     },
     'backend.articles': {
         path: '/articles'
+    },
+    'backend.getarticle': {
+        path: '/articles/{slug}'
     }
 }
 export default routes

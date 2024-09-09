@@ -40,7 +40,7 @@ const DashboardPage: NextPage<Props> = ({ }) => {
             {articles.map(article => (<>
                 <Card key={article.id} className="max-w-sm w-full">
                     <CardHeader className="" as={Link} href={route('article.show', {
-                        articleId: article.id
+                        articleId: article.slug
                     })}>
                         <div className="flex flex-col">
                             <p className="text-lg font-bold">{article.title}</p>

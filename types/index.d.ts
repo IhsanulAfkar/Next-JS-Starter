@@ -46,3 +46,9 @@ export type ArticleImage = {
     articleId: number,
     url: string
 }
+
+export type FetchResponse<T> = {
+    data: T,
+    message: string,
+    status: number
+}
