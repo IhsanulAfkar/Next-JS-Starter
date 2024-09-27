@@ -1,4 +1,4 @@
-import CreateArticlePage from '@/components/layout/dashboard/create/CreateArticlePage'
+import CreateArticlePage from '@/components/pages/dashboard/create/CreateArticlePage'
 import { Metadata, NextPage } from 'next'
 interface Props { }
 export const metadata: Metadata = {

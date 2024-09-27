@@ -54,6 +54,10 @@ const DashboardPage: NextPage<Props> = ({ }) => {
         if (session?.user) {
             fetchArticles()
         }
+        route('sample',{
+            id:'123',
+            id2:'2345',
+        })
     }, [session?.user])
     return <>
         <p className='font-bold text-3xl text-center'>MyArticles</p>
